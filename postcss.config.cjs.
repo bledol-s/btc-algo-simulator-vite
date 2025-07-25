@@ -1,6 +1,4 @@
+// postcss.config.cjs
 module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
+  plugins: [], // Leave this empty as Vite handles plugins directly now
 };
