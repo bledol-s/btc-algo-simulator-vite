@@ -7,11 +7,11 @@ import autoprefixer from 'autoprefixer'; // Import autoprefixer
 export default defineConfig({
   plugins: [react()],
   base: '/btc-algo-simulator-vite/', // Crucial for GitHub Pages. Must match your repo name with leading and trailing slash
-  css: { // Add this new 'css' section
+  css: { // This section is crucial
     postcss: {
       plugins: [
-        tailwindcss, // Reference the imported tailwindcss
-        autoprefixer, // Reference the imported autoprefixer
+        tailwindcss, // This refers to the imported 'tailwindcss' module
+        autoprefixer, // This refers to the imported 'autoprefixer' module
       ],
     },
   },

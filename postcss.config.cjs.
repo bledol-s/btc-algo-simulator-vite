@@ -1,4 +1,0 @@
-// postcss.config.cjs
-module.exports = {
-  plugins: [], // Leave this empty as Vite handles plugins directly now
-};
